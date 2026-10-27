@@ -1,0 +1,2366 @@
+{
+  "config": {
+    "symbol": "BTC/USDT:USDT",
+    "model_version": "momentum-v0.2.0",
+    "feature_version": "features-v0.2.0",
+    "config_version": "config-v0.2.0",
+    "n_candles": 43200,
+    "n_windows": 5,
+    "account_sizes": [
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "horizons": [
+      15,
+      60,
+      240
+    ]
+  },
+  "experiment_1": {
+    "momentum": {
+      "per_window": [
+        {
+          "strategy": "momentum",
+          "n_signals": 8336,
+          "n_candles": 8640,
+          "window_start": "2026-09-21 10:57:00+00:00",
+          "window_end": "2026-09-27 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.472168905950096,
+                "low": 0.4614923224568138,
+                "high": 0.48380518234165065
+              },
+              "mean_signed_return": {
+                "point": -7.962955339407497e-05,
+                "low": -0.0001226044178806845,
+                "high": -3.3990059305601484e-05
+              },
+              "median_signed_return": -8.083651573376205e-05,
+              "expectancy": -0.06104812060520589,
+              "long_count": 4194,
+              "short_count": 4142
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.47648752399232247,
+                "low": 0.4661708253358925,
+                "high": 0.4871641074856046
+              },
+              "mean_signed_return": {
+                "point": -0.00022356449029822025,
+                "low": -0.0002888867597113782,
+                "high": -0.00015372348259273807
+              },
+              "median_signed_return": -0.00013095968055570895,
+              "expectancy": -0.09466816414921816,
+              "long_count": 4194,
+              "short_count": 4142
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.4815259117082534,
+                "low": 0.4715690978886756,
+                "high": 0.49220249520153553
+              },
+              "mean_signed_return": {
+                "point": -0.00010955563965489954,
+                "low": -0.0002442015916201642,
+                "high": 3.0336198790504673e-05
+              },
+              "median_signed_return": -0.00019250628029765515,
+              "expectancy": -0.023908313372284093,
+              "long_count": 4194,
+              "short_count": 4142
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 1667,
+                "hit_rate": 0.48890221955608876,
+                "mean_signed_return": -3.8064182657626166e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1667,
+                "hit_rate": 0.46910617876424715,
+                "mean_signed_return": -5.258206789402598e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1667,
+                "hit_rate": 0.48530293941211755,
+                "mean_signed_return": -7.512247075641397e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1667,
+                "hit_rate": 0.48410317936412717,
+                "mean_signed_return": 7.509941147040516e-06
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.43345323741007197,
+                "mean_signed_return": -0.00023979290801233772
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 1667,
+                "hit_rate": 0.5098980203959208,
+                "mean_signed_return": -0.00010215384592504581
+              },
+              {
+                "bucket": 2,
+                "n": 1667,
+                "hit_rate": 0.5056988602279544,
+                "mean_signed_return": 1.9909337538905896e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1667,
+                "hit_rate": 0.4931013797240552,
+                "mean_signed_return": -4.9689218651134556e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1667,
+                "hit_rate": 0.45770845830833834,
+                "mean_signed_return": -0.0002754890195857332
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.41606714628297364,
+                "mean_signed_return": -0.0007101078372334593
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 1667,
+                "hit_rate": 0.4973005398920216,
+                "mean_signed_return": -0.00015094507006404074
+              },
+              {
+                "bucket": 2,
+                "n": 1667,
+                "hit_rate": 0.4949010197960408,
+                "mean_signed_return": 1.722134331257078e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1667,
+                "hit_rate": 0.47750449910017995,
+                "mean_signed_return": 1.5984848226127123e-06
+              },
+              {
+                "bucket": 4,
+                "n": 1667,
+                "hit_rate": 0.49190161967606477,
+                "mean_signed_return": 0.00020509330837307262
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.4460431654676259,
+                "mean_signed_return": -0.0006204397955190345
+              }
+            ]
+          }
+        },
+        {
+          "strategy": "momentum",
+          "n_signals": 8340,
+          "n_candles": 8640,
+          "window_start": "2026-09-27 10:57:00+00:00",
+          "window_end": "2026-10-03 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.481294964028777,
+                "low": 0.47050359712230216,
+                "high": 0.4919664268585132
+              },
+              "mean_signed_return": {
+                "point": -3.3139800618297776e-05,
+                "low": -7.556928272744177e-05,
+                "high": 8.565925738681303e-06
+              },
+              "median_signed_return": -6.388517988203946e-05,
+              "expectancy": -0.025293512933176245,
+              "long_count": 4213,
+              "short_count": 4127
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.49808153477218226,
+                "low": 0.4869304556354916,
+                "high": 0.5079136690647482
+              },
+              "mean_signed_return": {
+                "point": 1.6000671829772243e-05,
+                "low": -7.592614178990755e-05,
+                "high": 9.540184667661008e-05
+              },
+              "median_signed_return": -1.0202510373980012e-05,
+              "expectancy": 0.005804773857527052,
+              "long_count": 4213,
+              "short_count": 4127
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.49148681055155874,
+                "low": 0.4804556354916067,
+                "high": 0.5014388489208633
+              },
+              "mean_signed_return": {
+                "point": -0.00019397198821995197,
+                "low": -0.0003548876679493856,
+                "high": -5.340622068694943e-05
+              },
+              "median_signed_return": -0.00010871186104938202,
+              "expectancy": -0.03551875116473953,
+              "long_count": 4213,
+              "short_count": 4127
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.4952038369304556,
+                "mean_signed_return": -7.1926825178197625e-06
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.49940047961630696,
+                "mean_signed_return": 1.942520653965053e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.4832134292565947,
+                "mean_signed_return": -5.047626652887878e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.45623501199040767,
+                "mean_signed_return": -0.00016237636689543308
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.4724220623501199,
+                "mean_signed_return": 3.492110631099222e-05
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.4766187050359712,
+                "mean_signed_return": -9.660472113445484e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.4934052757793765,
+                "mean_signed_return": -3.4848428144701206e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.46642685851318944,
+                "mean_signed_return": -0.000110396526302952
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.5059952038369304,
+                "mean_signed_return": -1.9254622916958015e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.5479616306954437,
+                "mean_signed_return": 0.00034110765764792727
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.486810551558753,
+                "mean_signed_return": -0.00016549974259448837
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.486810551558753,
+                "mean_signed_return": -3.181360881057234e-06
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.4724220623501199,
+                "mean_signed_return": -0.0005514943776705453
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.4970023980815348,
+                "mean_signed_return": -0.0002819999077687724
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.5143884892086331,
+                "mean_signed_return": 3.231544781510333e-05
+              }
+            ]
+          }
+        },
+        {
+          "strategy": "momentum",
+          "n_signals": 8324,
+          "n_candles": 8640,
+          "window_start": "2026-10-03 10:57:00+00:00",
+          "window_end": "2026-10-09 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.4876261412782316,
+                "low": 0.47705430081691497,
+                "high": 0.49819798173954827
+              },
+              "mean_signed_return": {
+                "point": -2.0301173585685564e-05,
+                "low": -5.299227331679314e-05,
+                "high": 1.4193177017071848e-05
+              },
+              "median_signed_return": -2.232445516248127e-05,
+              "expectancy": -0.018935651310478134,
+              "long_count": 4228,
+              "short_count": 4096
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.49411340701585776,
+                "low": 0.48378183565593463,
+                "high": 0.5044449783757808
+              },
+              "mean_signed_return": {
+                "point": 3.3191806272944034e-05,
+                "low": -3.539210367318109e-05,
+                "high": 0.00010652650027018704
+              },
+              "median_signed_return": -2.8144045293443387e-05,
+              "expectancy": 0.015393956139775311,
+              "long_count": 4228,
+              "short_count": 4096
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.5191013935607881,
+                "low": 0.5084094185487746,
+                "high": 0.5305141758769822
+              },
+              "mean_signed_return": {
+                "point": 5.6966529069680464e-05,
+                "low": -7.8906959598063e-05,
+                "high": 0.00019637351227568922
+              },
+              "median_signed_return": 0.00018734856474333927,
+              "expectancy": 0.012375486103887097,
+              "long_count": 4228,
+              "short_count": 4096
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 1664,
+                "hit_rate": 0.5120192307692307,
+                "mean_signed_return": 1.0866297397650577e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1664,
+                "hit_rate": 0.4957932692307692,
+                "mean_signed_return": 1.2674435256215463e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1664,
+                "hit_rate": 0.48197115384615385,
+                "mean_signed_return": -4.7879362352433784e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1664,
+                "hit_rate": 0.4723557692307692,
+                "mean_signed_return": -0.00012608004389691753
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.47601918465227816,
+                "mean_signed_return": 4.874682490146334e-05
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 1664,
+                "hit_rate": 0.5096153846153846,
+                "mean_signed_return": 3.550909142947531e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1664,
+                "hit_rate": 0.4873798076923077,
+                "mean_signed_return": 0.00011681544244262789
+              },
+              {
+                "bucket": 3,
+                "n": 1664,
+                "hit_rate": 0.4699519230769231,
+                "mean_signed_return": 9.0605174700818e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1664,
+                "hit_rate": 0.4957932692307692,
+                "mean_signed_return": 2.8074971068635887e-06
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.5077937649880095,
+                "mean_signed_return": -7.950726309063292e-05
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 1664,
+                "hit_rate": 0.5198317307692307,
+                "mean_signed_return": 8.595900286431626e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1664,
+                "hit_rate": 0.5288461538461539,
+                "mean_signed_return": 0.0005019487966344302
+              },
+              {
+                "bucket": 3,
+                "n": 1664,
+                "hit_rate": 0.5324519230769231,
+                "mean_signed_return": 0.0004593187990097295
+              },
+              {
+                "bucket": 4,
+                "n": 1664,
+                "hit_rate": 0.5222355769230769,
+                "mean_signed_return": 0.00022403613074048305
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.4922062350119904,
+                "mean_signed_return": -0.000983927933749549
+              }
+            ]
+          }
+        },
+        {
+          "strategy": "momentum",
+          "n_signals": 8333,
+          "n_candles": 8640,
+          "window_start": "2026-10-09 10:57:00+00:00",
+          "window_end": "2026-10-15 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.49441977679107163,
+                "low": 0.4833793351734069,
+                "high": 0.5057002280091204
+              },
+              "mean_signed_return": {
+                "point": 4.730439335726501e-05,
+                "low": 1.2048720926250208e-05,
+                "high": 8.589829131554066e-05
+              },
+              "median_signed_return": -9.66703119431589e-06,
+              "expectancy": 0.04357072538121376,
+              "long_count": 4070,
+              "short_count": 4263
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.4666986679467179,
+                "low": 0.45577823112924515,
+                "high": 0.4767790711628465
+              },
+              "mean_signed_return": {
+                "point": -0.0002077646797526154,
+                "low": -0.0002789186079907536,
+                "high": -0.00013963516178790608
+              },
+              "median_signed_return": -0.00014029853609875964,
+              "expectancy": -0.09347628592162739,
+              "long_count": 4070,
+              "short_count": 4263
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.4650186007440298,
+                "low": 0.45433817352694106,
+                "high": 0.47593903756150246
+              },
+              "mean_signed_return": {
+                "point": -0.00048595881681200674,
+                "low": -0.0006153952201462227,
+                "high": -0.0003613082503322562
+              },
+              "median_signed_return": -0.00028310797135666643,
+              "expectancy": -0.12302887218340595,
+              "long_count": 4070,
+              "short_count": 4263
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 1666,
+                "hit_rate": 0.4885954381752701,
+                "mean_signed_return": 5.906493281562689e-06
+              },
+              {
+                "bucket": 2,
+                "n": 1666,
+                "hit_rate": 0.4897959183673469,
+                "mean_signed_return": 3.252791580831422e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1666,
+                "hit_rate": 0.4669867947178872,
+                "mean_signed_return": 3.111710828861005e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1666,
+                "hit_rate": 0.503001200480192,
+                "mean_signed_return": 0.00010009350121716046
+              },
+              {
+                "bucket": 5,
+                "n": 1669,
+                "hit_rate": 0.5236668663870582,
+                "mean_signed_return": 6.684176684586023e-05
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 1666,
+                "hit_rate": 0.4447779111644658,
+                "mean_signed_return": -0.0002021389901219603
+              },
+              {
+                "bucket": 2,
+                "n": 1666,
+                "hit_rate": 0.46638655462184875,
+                "mean_signed_return": -0.00018266787836031243
+              },
+              {
+                "bucket": 3,
+                "n": 1666,
+                "hit_rate": 0.4807923169267707,
+                "mean_signed_return": -0.00020760627438993532
+              },
+              {
+                "bucket": 4,
+                "n": 1666,
+                "hit_rate": 0.4843937575030012,
+                "mean_signed_return": -0.00014417233366362538
+              },
+              {
+                "bucket": 5,
+                "n": 1669,
+                "hit_rate": 0.457159976033553,
+                "mean_signed_return": -0.0003020681081305246
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 1666,
+                "hit_rate": 0.4777911164465786,
+                "mean_signed_return": -0.0005443950975248947
+              },
+              {
+                "bucket": 2,
+                "n": 1666,
+                "hit_rate": 0.4717887154861945,
+                "mean_signed_return": -0.0003787746271382492
+              },
+              {
+                "bucket": 3,
+                "n": 1666,
+                "hit_rate": 0.44717887154861946,
+                "mean_signed_return": -0.0005575705478986168
+              },
+              {
+                "bucket": 4,
+                "n": 1666,
+                "hit_rate": 0.4843937575030012,
+                "mean_signed_return": -0.0003461883187366385
+              },
+              {
+                "bucket": 5,
+                "n": 1669,
+                "hit_rate": 0.4439784301977232,
+                "mean_signed_return": -0.0006026553549378784
+              }
+            ]
+          }
+        },
+        {
+          "strategy": "momentum",
+          "n_signals": 8336,
+          "n_candles": 8640,
+          "window_start": "2026-10-15 10:57:00+00:00",
+          "window_end": "2026-10-21 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.45321497120921306,
+                "low": 0.442778310940499,
+                "high": 0.46329174664107486
+              },
+              "mean_signed_return": {
+                "point": -8.81041238856477e-05,
+                "low": -0.00012632652061236795,
+                "high": -5.411549566448841e-05
+              },
+              "median_signed_return": -9.889025020970443e-05,
+              "expectancy": -0.07668861957967443,
+              "long_count": 4183,
+              "short_count": 4153
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.49772072936660267,
+                "low": 0.486084452975048,
+                "high": 0.5075575815738963
+              },
+              "mean_signed_return": {
+                "point": -5.6182067392084906e-05,
+                "low": -0.0001346849274432891,
+                "high": 1.82215609641967e-05
+              },
+              "median_signed_return": -1.2783700135021725e-05,
+              "expectancy": -0.024572457226397212,
+              "long_count": 4183,
+              "short_count": 4153
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.48740403071017274,
+                "low": 0.47696737044145876,
+                "high": 0.49844049904030713
+              },
+              "mean_signed_return": {
+                "point": -9.638587224529595e-05,
+                "low": -0.00023160431964864073,
+                "high": 3.485096377582814e-05
+              },
+              "median_signed_return": -0.0001116049971923716,
+              "expectancy": -0.021512331727350918,
+              "long_count": 4183,
+              "short_count": 4153
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 1667,
+                "hit_rate": 0.46850629874025196,
+                "mean_signed_return": -8.240146367905555e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1667,
+                "hit_rate": 0.4469106178764247,
+                "mean_signed_return": -0.00013119346283883108
+              },
+              {
+                "bucket": 3,
+                "n": 1667,
+                "hit_rate": 0.45770845830833834,
+                "mean_signed_return": -3.509422951965073e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1667,
+                "hit_rate": 0.4631073785242951,
+                "mean_signed_return": 1.6189934877480487e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.42985611510791366,
+                "mean_signed_return": -0.0002079495054178324
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 1667,
+                "hit_rate": 0.5050989802039592,
+                "mean_signed_return": 4.029510678397464e-06
+              },
+              {
+                "bucket": 2,
+                "n": 1667,
+                "hit_rate": 0.48410317936412717,
+                "mean_signed_return": -0.00011198070479585468
+              },
+              {
+                "bucket": 3,
+                "n": 1667,
+                "hit_rate": 0.528494301139772,
+                "mean_signed_return": 0.00011871383702439499
+              },
+              {
+                "bucket": 4,
+                "n": 1667,
+                "hit_rate": 0.5008998200359928,
+                "mean_signed_return": -3.227737260884157e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.47002398081534774,
+                "mean_signed_return": -0.0002592737765991284
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 1667,
+                "hit_rate": 0.5128974205158968,
+                "mean_signed_return": 0.0002565885794157265
+              },
+              {
+                "bucket": 2,
+                "n": 1667,
+                "hit_rate": 0.48530293941211755,
+                "mean_signed_return": -0.00019787312933080013
+              },
+              {
+                "bucket": 3,
+                "n": 1667,
+                "hit_rate": 0.5002999400119976,
+                "mean_signed_return": 0.00034688831637624015
+              },
+              {
+                "bucket": 4,
+                "n": 1667,
+                "hit_rate": 0.47750449910017995,
+                "mean_signed_return": -0.00010863135924951879
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.46103117505995206,
+                "mean_signed_return": -0.0007784925862461653
+              }
+            ]
+          }
+        }
+      ],
+      "pooled": {
+        "strategy": "momentum",
+        "n_signals": 41669,
+        "n_candles": 0,
+        "window_start": "None",
+        "window_end": "None",
+        "by_horizon": {
+          "15": {
+            "hit_rate": {
+              "point": 0.47774124649019656,
+              "low": 0.47260553409009093,
+              "high": 0.48285296023422686
+            },
+            "mean_signed_return": {
+              "point": -3.4783972018563656e-05,
+              "low": -5.306756951716198e-05,
+              "high": -1.7626399999610115e-05
+            },
+            "median_signed_return": -5.549455090736455e-05,
+            "expectancy": -0.029370904650649888,
+            "long_count": 20888,
+            "short_count": 20781
+          },
+          "60": {
+            "hit_rate": {
+              "point": 0.48662074923804266,
+              "low": 0.48194101130336703,
+              "high": 0.4915644723895462
+            },
+            "mean_signed_return": {
+              "point": -8.767995830974204e-05,
+              "low": -0.00012316934640766653,
+              "high": -5.2469400068166416e-05
+            },
+            "median_signed_return": -6.891397515995656e-05,
+            "expectancy": -0.03720377810162342,
+            "long_count": 20888,
+            "short_count": 20781
+          },
+          "240": {
+            "hit_rate": {
+              "point": 0.4889006215651924,
+              "low": 0.48426888094266723,
+              "high": 0.49348436487556696
+            },
+            "mean_signed_return": {
+              "point": -0.0001658249599815897,
+              "low": -0.00022203399498018272,
+              "high": -0.00010333268108247244
+            },
+            "median_signed_return": -0.00010413004249731905,
+            "expectancy": -0.03592748697936944,
+            "long_count": 20888,
+            "short_count": 20781
+          }
+        },
+        "confidence_buckets": {
+          "15": [
+            {
+              "bucket": 1,
+              "n": 8333,
+              "hit_rate": 0.49177967118684746,
+              "mean_signed_return": -1.8326587732589997e-05
+            },
+            {
+              "bucket": 2,
+              "n": 8333,
+              "hit_rate": 0.4764190567622705,
+              "mean_signed_return": -3.5090541380082194e-05
+            },
+            {
+              "bucket": 3,
+              "n": 8333,
+              "hit_rate": 0.47881915276611065,
+              "mean_signed_return": -2.2730200428169928e-05
+            },
+            {
+              "bucket": 4,
+              "n": 8333,
+              "hit_rate": 0.4753390135605424,
+              "mean_signed_return": -3.829274602559666e-05
+            },
+            {
+              "bucket": 5,
+              "n": 8337,
+              "hit_rate": 0.46635480388629,
+              "mean_signed_return": -5.9467935749837424e-05
+            }
+          ],
+          "60": [
+            {
+              "bucket": 1,
+              "n": 8333,
+              "hit_rate": 0.4880595223808952,
+              "mean_signed_return": -6.695544678205364e-05
+            },
+            {
+              "bucket": 2,
+              "n": 8333,
+              "hit_rate": 0.48709948397935915,
+              "mean_signed_return": -5.698000303972405e-05
+            },
+            {
+              "bucket": 3,
+              "n": 8333,
+              "hit_rate": 0.4914196567862715,
+              "mean_signed_return": -1.0406037315652374e-05
+            },
+            {
+              "bucket": 4,
+              "n": 8333,
+              "hit_rate": 0.4857794311772471,
+              "mean_signed_return": -0.00010004373680191435
+            },
+            {
+              "bucket": 5,
+              "n": 8337,
+              "hit_rate": 0.48074847067290394,
+              "mean_signed_return": -0.00020395875155596545
+            }
+          ],
+          "240": [
+            {
+              "bucket": 1,
+              "n": 8333,
+              "hit_rate": 0.49957998319932795,
+              "mean_signed_return": -9.279878817172462e-05
+            },
+            {
+              "bucket": 2,
+              "n": 8333,
+              "hit_rate": 0.4899795991839674,
+              "mean_signed_return": -5.130063878428401e-05
+            },
+            {
+              "bucket": 3,
+              "n": 8333,
+              "hit_rate": 0.4965798631945278,
+              "mean_signed_return": 1.551272449303045e-05
+            },
+            {
+              "bucket": 4,
+              "n": 8333,
+              "hit_rate": 0.48685947437897514,
+              "mean_signed_return": -0.0001305667574266166
+            },
+            {
+              "bucket": 5,
+              "n": 8337,
+              "hit_rate": 0.47151253448482666,
+              "mean_signed_return": -0.0005697774350741115
+            }
+          ]
+        }
+      }
+    },
+    "news": {
+      "per_window": [
+        {
+          "strategy": "news",
+          "n_signals": 0,
+          "note": "no signals emitted",
+          "by_horizon": {},
+          "confidence_buckets": {}
+        },
+        {
+          "strategy": "news",
+          "n_signals": 163,
+          "n_candles": 8640,
+          "window_start": "2026-09-27 10:57:00+00:00",
+          "window_end": "2026-10-03 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.4110429447852761,
+                "low": 0.3374233128834356,
+                "high": 0.48466257668711654
+              },
+              "mean_signed_return": {
+                "point": -0.00010065954789920952,
+                "low": -0.0003704320736423022,
+                "high": 0.0001861929234602859
+              },
+              "median_signed_return": -0.00041484152336512814,
+              "expectancy": -0.07228793511146099,
+              "long_count": 75,
+              "short_count": 88
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.5337423312883436,
+                "low": 0.4601226993865031,
+                "high": 0.6073619631901841
+              },
+              "mean_signed_return": {
+                "point": -2.758234228020461e-05,
+                "low": -0.0003438240099310411,
+                "high": 0.00031267668888489234
+              },
+              "median_signed_return": 0.00010271931469507667,
+              "expectancy": -0.01591339851048187,
+              "long_count": 75,
+              "short_count": 88
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.5337423312883436,
+                "low": 0.4601226993865031,
+                "high": 0.6073619631901841
+              },
+              "mean_signed_return": {
+                "point": -0.0031497148162669335,
+                "low": -0.004326644037636084,
+                "high": -0.0019371072617925004
+              },
+              "median_signed_return": 0.0009263323845801752,
+              "expectancy": -0.4644002025821323,
+              "long_count": 75,
+              "short_count": 88
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 32,
+                "hit_rate": 0.375,
+                "mean_signed_return": -0.00018213994610193074
+              },
+              {
+                "bucket": 2,
+                "n": 32,
+                "hit_rate": 0.28125,
+                "mean_signed_return": -0.0007516771497538197
+              },
+              {
+                "bucket": 3,
+                "n": 32,
+                "hit_rate": 0.3125,
+                "mean_signed_return": -0.0004671052445937886
+              },
+              {
+                "bucket": 4,
+                "n": 32,
+                "hit_rate": 0.53125,
+                "mean_signed_return": 0.0005113522604086596
+              },
+              {
+                "bucket": 5,
+                "n": 35,
+                "hit_rate": 0.5428571428571428,
+                "mean_signed_return": 0.0003445353215353426
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 32,
+                "hit_rate": 0.6875,
+                "mean_signed_return": 0.0008302913783164168
+              },
+              {
+                "bucket": 2,
+                "n": 32,
+                "hit_rate": 0.1875,
+                "mean_signed_return": -0.0011723895309330053
+              },
+              {
+                "bucket": 3,
+                "n": 32,
+                "hit_rate": 0.46875,
+                "mean_signed_return": -0.00034441227899410787
+              },
+              {
+                "bucket": 4,
+                "n": 32,
+                "hit_rate": 0.65625,
+                "mean_signed_return": 0.0004939533245754274
+              },
+              {
+                "bucket": 5,
+                "n": 35,
+                "hit_rate": 0.6571428571428571,
+                "mean_signed_return": 4.759730381300731e-05
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 32,
+                "hit_rate": 0.71875,
+                "mean_signed_return": -0.0019271308402734784
+              },
+              {
+                "bucket": 2,
+                "n": 32,
+                "hit_rate": 0.0,
+                "mean_signed_return": -0.007576908604046598
+              },
+              {
+                "bucket": 3,
+                "n": 32,
+                "hit_rate": 0.59375,
+                "mean_signed_return": -0.0026511354295284256
+              },
+              {
+                "bucket": 4,
+                "n": 32,
+                "hit_rate": 0.90625,
+                "mean_signed_return": 0.0029494947504293753
+              },
+              {
+                "bucket": 5,
+                "n": 35,
+                "hit_rate": 0.45714285714285713,
+                "mean_signed_return": -0.006252050031488518
+              }
+            ]
+          }
+        },
+        {
+          "strategy": "news",
+          "n_signals": 0,
+          "note": "no signals emitted",
+          "by_horizon": {},
+          "confidence_buckets": {}
+        },
+        {
+          "strategy": "news",
+          "n_signals": 0,
+          "note": "no signals emitted",
+          "by_horizon": {},
+          "confidence_buckets": {}
+        },
+        {
+          "strategy": "news",
+          "n_signals": 0,
+          "note": "no signals emitted",
+          "by_horizon": {},
+          "confidence_buckets": {}
+        }
+      ],
+      "pooled": {
+        "strategy": "news",
+        "n_signals": 163,
+        "n_candles": 0,
+        "window_start": "None",
+        "window_end": "None",
+        "by_horizon": {
+          "15": {
+            "hit_rate": {
+              "point": 0.4110429447852761,
+              "low": 0.3374233128834356,
+              "high": 0.48466257668711654
+            },
+            "mean_signed_return": {
+              "point": -0.00010065954789920952,
+              "low": -0.0003704320736423022,
+              "high": 0.0001861929234602859
+            },
+            "median_signed_return": -0.00041484152336512814,
+            "expectancy": -0.07228793511146099,
+            "long_count": 75,
+            "short_count": 88
+          },
+          "60": {
+            "hit_rate": {
+              "point": 0.5337423312883436,
+              "low": 0.4601226993865031,
+              "high": 0.6073619631901841
+            },
+            "mean_signed_return": {
+              "point": -2.758234228020461e-05,
+              "low": -0.0003438240099310411,
+              "high": 0.00031267668888489234
+            },
+            "median_signed_return": 0.00010271931469507667,
+            "expectancy": -0.01591339851048187,
+            "long_count": 75,
+            "short_count": 88
+          },
+          "240": {
+            "hit_rate": {
+              "point": 0.5337423312883436,
+              "low": 0.4601226993865031,
+              "high": 0.6073619631901841
+            },
+            "mean_signed_return": {
+              "point": -0.0031497148162669335,
+              "low": -0.004326644037636084,
+              "high": -0.0019371072617925004
+            },
+            "median_signed_return": 0.0009263323845801752,
+            "expectancy": -0.4644002025821323,
+            "long_count": 75,
+            "short_count": 88
+          }
+        },
+        "confidence_buckets": {
+          "15": [
+            {
+              "bucket": 1,
+              "n": 32,
+              "hit_rate": 0.375,
+              "mean_signed_return": -0.00018213994610193074
+            },
+            {
+              "bucket": 2,
+              "n": 32,
+              "hit_rate": 0.28125,
+              "mean_signed_return": -0.0007516771497538197
+            },
+            {
+              "bucket": 3,
+              "n": 32,
+              "hit_rate": 0.3125,
+              "mean_signed_return": -0.0004671052445937886
+            },
+            {
+              "bucket": 4,
+              "n": 32,
+              "hit_rate": 0.53125,
+              "mean_signed_return": 0.0005113522604086596
+            },
+            {
+              "bucket": 5,
+              "n": 35,
+              "hit_rate": 0.5428571428571428,
+              "mean_signed_return": 0.0003445353215353426
+            }
+          ],
+          "60": [
+            {
+              "bucket": 1,
+              "n": 32,
+              "hit_rate": 0.6875,
+              "mean_signed_return": 0.0008302913783164168
+            },
+            {
+              "bucket": 2,
+              "n": 32,
+              "hit_rate": 0.1875,
+              "mean_signed_return": -0.0011723895309330053
+            },
+            {
+              "bucket": 3,
+              "n": 32,
+              "hit_rate": 0.46875,
+              "mean_signed_return": -0.00034441227899410787
+            },
+            {
+              "bucket": 4,
+              "n": 32,
+              "hit_rate": 0.65625,
+              "mean_signed_return": 0.0004939533245754274
+            },
+            {
+              "bucket": 5,
+              "n": 35,
+              "hit_rate": 0.6571428571428571,
+              "mean_signed_return": 4.759730381300731e-05
+            }
+          ],
+          "240": [
+            {
+              "bucket": 1,
+              "n": 32,
+              "hit_rate": 0.71875,
+              "mean_signed_return": -0.0019271308402734784
+            },
+            {
+              "bucket": 2,
+              "n": 32,
+              "hit_rate": 0.0,
+              "mean_signed_return": -0.007576908604046598
+            },
+            {
+              "bucket": 3,
+              "n": 32,
+              "hit_rate": 0.59375,
+              "mean_signed_return": -0.0026511354295284256
+            },
+            {
+              "bucket": 4,
+              "n": 32,
+              "hit_rate": 0.90625,
+              "mean_signed_return": 0.0029494947504293753
+            },
+            {
+              "bucket": 5,
+              "n": 35,
+              "hit_rate": 0.45714285714285713,
+              "mean_signed_return": -0.006252050031488518
+            }
+          ]
+        }
+      }
+    },
+    "random": {
+      "per_window": [
+        {
+          "strategy": "random",
+          "n_signals": 8340,
+          "n_candles": 8640,
+          "window_start": "2026-09-21 10:57:00+00:00",
+          "window_end": "2026-09-27 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.49028776978417266,
+                "low": 0.47997601918465227,
+                "high": 0.5002398081534772
+              },
+              "mean_signed_return": {
+                "point": -2.1829468836571444e-05,
+                "low": -6.371267649763752e-05,
+                "high": 1.825490553866866e-05
+              },
+              "median_signed_return": -2.612748305880208e-05,
+              "expectancy": -0.016741170739911854,
+              "long_count": 4081,
+              "short_count": 4259
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.5009592326139088,
+                "low": 0.4900479616306954,
+                "high": 0.5123501199040768
+              },
+              "mean_signed_return": {
+                "point": 6.3198509705032766e-06,
+                "low": -6.220779347047962e-05,
+                "high": 8.161809607980593e-05
+              },
+              "median_signed_return": 7.73716672303193e-06,
+              "expectancy": 0.002677095165296827,
+              "long_count": 4081,
+              "short_count": 4259
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.4986810551558753,
+                "low": 0.48872901678657077,
+                "high": 0.5098321342925659
+              },
+              "mean_signed_return": {
+                "point": -3.45930263467175e-05,
+                "low": -0.00016483990992654021,
+                "high": 0.00010547857998658969
+              },
+              "median_signed_return": -8.33178133224921e-06,
+              "expectancy": -0.007551088432456112,
+              "long_count": 4081,
+              "short_count": 4259
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.48081534772182255,
+                "mean_signed_return": -0.00011022178189333252
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.4862110311750599,
+                "mean_signed_return": 5.1262554659746414e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.5029976019184652,
+                "mean_signed_return": 1.4065446433286111e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.48201438848920863,
+                "mean_signed_return": -6.85189200190342e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.49940047961630696,
+                "mean_signed_return": 4.2653566364769775e-06
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.5023980815347722,
+                "mean_signed_return": 3.6368659777248874e-06
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.5137889688249401,
+                "mean_signed_return": 0.00011065021968319048
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.5065947242206235,
+                "mean_signed_return": 3.0052336767094662e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.4856115107913669,
+                "mean_signed_return": -0.00011895638315709152
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.49640287769784175,
+                "mean_signed_return": 6.216215581597873e-06
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.4982014388489209,
+                "mean_signed_return": -7.873220392775813e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.49160671462829736,
+                "mean_signed_return": -0.00014211294361381118
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.49640287769784175,
+                "mean_signed_return": 9.39564589527866e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.4940047961630695,
+                "mean_signed_return": -6.596959061703136e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.513189448441247,
+                "mean_signed_return": 1.9893147472226587e-05
+              }
+            ]
+          }
+        },
+        {
+          "strategy": "random",
+          "n_signals": 8340,
+          "n_candles": 8640,
+          "window_start": "2026-09-27 10:57:00+00:00",
+          "window_end": "2026-10-03 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.5050359712230216,
+                "low": 0.4948441247002398,
+                "high": 0.5155875299760192
+              },
+              "mean_signed_return": {
+                "point": 2.793075755618672e-05,
+                "low": -1.139504001972814e-05,
+                "high": 7.140573223967567e-05
+              },
+              "median_signed_return": 1.7998236615246466e-05,
+              "expectancy": 0.021317779959447038,
+              "long_count": 4169,
+              "short_count": 4171
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.5014388489208633,
+                "low": 0.49112709832134294,
+                "high": 0.5123501199040768
+              },
+              "mean_signed_return": {
+                "point": 8.495957317112536e-06,
+                "low": -7.145958817724581e-05,
+                "high": 9.315890832931291e-05
+              },
+              "median_signed_return": 1.3688918634291447e-05,
+              "expectancy": 0.003082190013876593,
+              "long_count": 4169,
+              "short_count": 4171
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.5063549160671463,
+                "low": 0.49556354916067147,
+                "high": 0.5170263788968825
+              },
+              "mean_signed_return": {
+                "point": 0.00012178166200653431,
+                "low": -2.6662917669547078e-05,
+                "high": 0.0002630121720174806
+              },
+              "median_signed_return": 6.654809087958125e-05,
+              "expectancy": 0.022299779411105614,
+              "long_count": 4169,
+              "short_count": 4171
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.5029976019184652,
+                "mean_signed_return": 7.486163334694458e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.5197841726618705,
+                "mean_signed_return": 6.773837932167962e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.5065947242206235,
+                "mean_signed_return": 2.7840485962282938e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.4970023980815348,
+                "mean_signed_return": 1.7209184461954416e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.4988009592326139,
+                "mean_signed_return": -4.7995895311927966e-05
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.4826139088729017,
+                "mean_signed_return": -7.096421862016251e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.5221822541966427,
+                "mean_signed_return": 0.00016622671673338028
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.5101918465227818,
+                "mean_signed_return": 3.9853926712360095e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.48201438848920863,
+                "mean_signed_return": -0.0001177429572826613
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.5101918465227818,
+                "mean_signed_return": 2.5106319042646112e-05
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.513189448441247,
+                "mean_signed_return": 9.883905023760655e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.5149880095923262,
+                "mean_signed_return": 0.00033194655145254407
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.4982014388489209,
+                "mean_signed_return": 0.00020652637273206075
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.4904076738609113,
+                "mean_signed_return": -0.00023730034959021227
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.5149880095923262,
+                "mean_signed_return": 0.0002088966852006725
+              }
+            ]
+          }
+        },
+        {
+          "strategy": "random",
+          "n_signals": 8340,
+          "n_candles": 8640,
+          "window_start": "2026-10-03 10:57:00+00:00",
+          "window_end": "2026-10-09 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.5045563549160671,
+                "low": 0.49388489208633096,
+                "high": 0.5151079136690647
+              },
+              "mean_signed_return": {
+                "point": 3.762005465387985e-05,
+                "low": 3.880422004204926e-06,
+                "high": 7.380753581114419e-05
+              },
+              "median_signed_return": 1.1215107980522276e-05,
+              "expectancy": 0.03513246620444376,
+              "long_count": 4192,
+              "short_count": 4148
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.49376498800959234,
+                "low": 0.4832134292565947,
+                "high": 0.5045563549160671
+              },
+              "mean_signed_return": {
+                "point": -2.9200637111650456e-05,
+                "low": -9.879261790616148e-05,
+                "high": 4.551142882874961e-05
+              },
+              "median_signed_return": -2.9171428445051717e-05,
+              "expectancy": -0.013551060286881472,
+              "long_count": 4192,
+              "short_count": 4148
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.5009592326139088,
+                "low": 0.4906474820143885,
+                "high": 0.5118705035971223
+              },
+              "mean_signed_return": {
+                "point": -2.042971586994781e-05,
+                "low": -0.000158585461313729,
+                "high": 0.00012141728937247145
+              },
+              "median_signed_return": 7.025762541135183e-06,
+              "expectancy": -0.004437257654347569,
+              "long_count": 4192,
+              "short_count": 4148
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.5017985611510791,
+                "mean_signed_return": 2.9886681277552243e-06
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.5275779376498801,
+                "mean_signed_return": 0.0001181459716480769
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.4934052757793765,
+                "mean_signed_return": -2.669664847076095e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.49760191846522783,
+                "mean_signed_return": 3.6637653286402095e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.5023980815347722,
+                "mean_signed_return": 5.7024628677925976e-05
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.4892086330935252,
+                "mean_signed_return": -3.870390160842053e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.4982014388489209,
+                "mean_signed_return": 5.9742925550106566e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.4856115107913669,
+                "mean_signed_return": -0.00012754878028167405
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.500599520383693,
+                "mean_signed_return": -8.0873485971094e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.4952038369304556,
+                "mean_signed_return": 4.1380056752829724e-05
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.48980815347721823,
+                "mean_signed_return": -7.658849531785481e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.49640287769784175,
+                "mean_signed_return": -0.0003432096980231958
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.4958033573141487,
+                "mean_signed_return": -0.00010543580891621537
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.5023980815347722,
+                "mean_signed_return": -6.706002501492692e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.5203836930455635,
+                "mean_signed_return": 0.0004901454479224539
+              }
+            ]
+          }
+        },
+        {
+          "strategy": "random",
+          "n_signals": 8340,
+          "n_candles": 8640,
+          "window_start": "2026-10-09 10:57:00+00:00",
+          "window_end": "2026-10-15 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.4995203836930456,
+                "low": 0.4892086330935252,
+                "high": 0.5107913669064749
+              },
+              "mean_signed_return": {
+                "point": -4.791882357833687e-06,
+                "low": -3.725626122605597e-05,
+                "high": 3.1272297984795084e-05
+              },
+              "median_signed_return": 0.0,
+              "expectancy": -0.004414408395006937,
+              "long_count": 4080,
+              "short_count": 4260
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.503956834532374,
+                "low": 0.49376498800959234,
+                "high": 0.5143884892086331
+              },
+              "mean_signed_return": {
+                "point": -1.8424920205854325e-06,
+                "low": -7.209399843390202e-05,
+                "high": 7.180032506278203e-05
+              },
+              "median_signed_return": 1.8082506889227634e-05,
+              "expectancy": -0.0008290783323925348,
+              "long_count": 4080,
+              "short_count": 4260
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.5041966426858513,
+                "low": 0.49376498800959234,
+                "high": 0.515347721822542
+              },
+              "mean_signed_return": {
+                "point": 8.491065737083371e-05,
+                "low": -4.529496913399967e-05,
+                "high": 0.00021617803459072138
+              },
+              "median_signed_return": 3.949752255971717e-05,
+              "expectancy": 0.021501840368270197,
+              "long_count": 4080,
+              "short_count": 4260
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.5113908872901679,
+                "mean_signed_return": 3.105848347756135e-06
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.48860911270983215,
+                "mean_signed_return": -2.007981282241401e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.49460431654676257,
+                "mean_signed_return": -2.6284433698205168e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.5167865707434053,
+                "mean_signed_return": 8.087481286275103e-06
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.4862110311750599,
+                "mean_signed_return": 1.1211505097419505e-05
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.4988009592326139,
+                "mean_signed_return": -6.294967134612909e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.5101918465227818,
+                "mean_signed_return": -6.190722161321007e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.4922062350119904,
+                "mean_signed_return": -0.0001114513693157036
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.5113908872901679,
+                "mean_signed_return": -4.506975558278888e-06
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.5071942446043165,
+                "mean_signed_return": 0.00023160277773039449
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.5011990407673861,
+                "mean_signed_return": -2.762845990321759e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.48741007194244607,
+                "mean_signed_return": -0.00013029616767139339
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.5083932853717026,
+                "mean_signed_return": 0.0002646999653972829
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.5113908872901679,
+                "mean_signed_return": 6.557386735286708e-06
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.512589928057554,
+                "mean_signed_return": 0.00031122056229620994
+              }
+            ]
+          }
+        },
+        {
+          "strategy": "random",
+          "n_signals": 8340,
+          "n_candles": 8640,
+          "window_start": "2026-10-15 10:57:00+00:00",
+          "window_end": "2026-10-21 05:56:00+00:00",
+          "by_horizon": {
+            "15": {
+              "hit_rate": {
+                "point": 0.5002398081534772,
+                "low": 0.4900479616306954,
+                "high": 0.511031175059952
+              },
+              "mean_signed_return": {
+                "point": -8.254577549836372e-06,
+                "low": -4.5058190197699415e-05,
+                "high": 2.9188125685992164e-05
+              },
+              "median_signed_return": 1.2179667170930664e-06,
+              "expectancy": -0.00718657766715221,
+              "long_count": 4222,
+              "short_count": 4118
+            },
+            "60": {
+              "hit_rate": {
+                "point": 0.5059952038369304,
+                "low": 0.49544364508393285,
+                "high": 0.5167865707434053
+              },
+              "mean_signed_return": {
+                "point": 3.6241303624265493e-06,
+                "low": -7.290455850355177e-05,
+                "high": 7.515206501239064e-05
+              },
+              "median_signed_return": 3.288958825303778e-05,
+              "expectancy": 0.0015848653613375389,
+              "long_count": 4222,
+              "short_count": 4118
+            },
+            "240": {
+              "hit_rate": {
+                "point": 0.5057553956834533,
+                "low": 0.4949640287769784,
+                "high": 0.5160671462829736
+              },
+              "mean_signed_return": {
+                "point": 7.809542273700785e-05,
+                "low": -5.38501203053814e-05,
+                "high": 0.00021332639863432838
+              },
+              "median_signed_return": 5.44453300285741e-05,
+              "expectancy": 0.01742461224162204,
+              "long_count": 4222,
+              "short_count": 4118
+            }
+          },
+          "confidence_buckets": {
+            "15": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.4982014388489209,
+                "mean_signed_return": 2.1998238806437877e-06
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.4952038369304556,
+                "mean_signed_return": -3.881540810051674e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.4988009592326139,
+                "mean_signed_return": 5.014850069319247e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.4982014388489209,
+                "mean_signed_return": -5.517964094494133e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.5107913669064749,
+                "mean_signed_return": 3.7383672243995694e-07
+              }
+            ],
+            "60": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.5089928057553957,
+                "mean_signed_return": 3.968717217911031e-05
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.4844124700239808,
+                "mean_signed_return": -5.611632910826962e-05
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.5191846522781774,
+                "mean_signed_return": 5.770042183377041e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.5161870503597122,
+                "mean_signed_return": 4.037744074038149e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.5011990407673861,
+                "mean_signed_return": -6.352805383285985e-05
+              }
+            ],
+            "240": [
+              {
+                "bucket": 1,
+                "n": 1668,
+                "hit_rate": 0.511990407673861,
+                "mean_signed_return": 0.00016911317677169085
+              },
+              {
+                "bucket": 2,
+                "n": 1668,
+                "hit_rate": 0.5107913669064749,
+                "mean_signed_return": 0.00012035805705681903
+              },
+              {
+                "bucket": 3,
+                "n": 1668,
+                "hit_rate": 0.49640287769784175,
+                "mean_signed_return": 4.3795958004939385e-05
+              },
+              {
+                "bucket": 4,
+                "n": 1668,
+                "hit_rate": 0.49760191846522783,
+                "mean_signed_return": -5.979198952272324e-05
+              },
+              {
+                "bucket": 5,
+                "n": 1668,
+                "hit_rate": 0.511990407673861,
+                "mean_signed_return": 0.00011700191137431322
+              }
+            ]
+          }
+        }
+      ],
+      "pooled": {
+        "strategy": "random",
+        "n_signals": 41700,
+        "n_candles": 0,
+        "window_start": "None",
+        "window_end": "None",
+        "by_horizon": {
+          "15": {
+            "hit_rate": {
+              "point": 0.49992805755395686,
+              "low": 0.4953717026378897,
+              "high": 0.5047721822541966
+            },
+            "mean_signed_return": {
+              "point": 6.134976693165013e-06,
+              "low": -1.0979798246072321e-05,
+              "high": 2.358692730291532e-05
+            },
+            "median_signed_return": 0.0,
+            "expectancy": 0.005182378296530192,
+            "long_count": 20744,
+            "short_count": 20956
+          },
+          "60": {
+            "hit_rate": {
+              "point": 0.5012230215827338,
+              "low": 0.4964508393285372,
+              "high": 0.5058033573141487
+            },
+            "mean_signed_return": {
+              "point": -2.5206380964387057e-06,
+              "low": -3.521415309198497e-05,
+              "high": 3.088388789982943e-05
+            },
+            "median_signed_return": 8.365605709048651e-06,
+            "expectancy": -0.001069781423590887,
+            "long_count": 20744,
+            "short_count": 20956
+          },
+          "240": {
+            "hit_rate": {
+              "point": 0.503189448441247,
+              "low": 0.4981534772182254,
+              "high": 0.5080095923261391
+            },
+            "mean_signed_return": {
+              "point": 4.595299997954211e-05,
+              "low": -1.6588255665706665e-05,
+              "high": 0.00011118061979360093
+            },
+            "median_signed_return": 3.12419401312658e-05,
+            "expectancy": 0.009956302825317766,
+            "long_count": 20744,
+            "short_count": 20956
+          }
+        },
+        "confidence_buckets": {
+          "15": [
+            {
+              "bucket": 1,
+              "n": 8340,
+              "hit_rate": 0.49028776978417266,
+              "mean_signed_return": -2.1829468836571444e-05
+            },
+            {
+              "bucket": 2,
+              "n": 8340,
+              "hit_rate": 0.5050359712230216,
+              "mean_signed_return": 2.793075755618672e-05
+            },
+            {
+              "bucket": 3,
+              "n": 8340,
+              "hit_rate": 0.5045563549160671,
+              "mean_signed_return": 3.762005465387985e-05
+            },
+            {
+              "bucket": 4,
+              "n": 8340,
+              "hit_rate": 0.4995203836930456,
+              "mean_signed_return": -4.791882357833687e-06
+            },
+            {
+              "bucket": 5,
+              "n": 8340,
+              "hit_rate": 0.5002398081534772,
+              "mean_signed_return": -8.254577549836372e-06
+            }
+          ],
+          "60": [
+            {
+              "bucket": 1,
+              "n": 8340,
+              "hit_rate": 0.5009592326139088,
+              "mean_signed_return": 6.3198509705032766e-06
+            },
+            {
+              "bucket": 2,
+              "n": 8340,
+              "hit_rate": 0.5014388489208633,
+              "mean_signed_return": 8.495957317112536e-06
+            },
+            {
+              "bucket": 3,
+              "n": 8340,
+              "hit_rate": 0.49376498800959234,
+              "mean_signed_return": -2.9200637111650456e-05
+            },
+            {
+              "bucket": 4,
+              "n": 8340,
+              "hit_rate": 0.503956834532374,
+              "mean_signed_return": -1.8424920205854325e-06
+            },
+            {
+              "bucket": 5,
+              "n": 8340,
+              "hit_rate": 0.5059952038369304,
+              "mean_signed_return": 3.6241303624265493e-06
+            }
+          ],
+          "240": [
+            {
+              "bucket": 1,
+              "n": 8340,
+              "hit_rate": 0.4986810551558753,
+              "mean_signed_return": -3.45930263467175e-05
+            },
+            {
+              "bucket": 2,
+              "n": 8340,
+              "hit_rate": 0.5063549160671463,
+              "mean_signed_return": 0.00012178166200653431
+            },
+            {
+              "bucket": 3,
+              "n": 8340,
+              "hit_rate": 0.5009592326139088,
+              "mean_signed_return": -2.042971586994781e-05
+            },
+            {
+              "bucket": 4,
+              "n": 8340,
+              "hit_rate": 0.5041966426858513,
+              "mean_signed_return": 8.491065737083371e-05
+            },
+            {
+              "bucket": 5,
+              "n": 8340,
+              "hit_rate": 0.5057553956834533,
+              "mean_signed_return": 7.809542273700785e-05
+            }
+          ]
+        }
+      }
+    }
+  },
+  "experiment_2": {
+    "momentum": [
+      {
+        "starting_equity": 10.0,
+        "ending_equity": 7.737872680219018,
+        "n_trades": 1,
+        "n_wins": 0,
+        "n_losses": 1,
+        "total_pnl": -2.2621273197809812,
+        "total_fees": 0.083581961781,
+        "total_funding": 0.33800892000000016,
+        "max_drawdown_pct": 0.22621273197809816
+      },
+      {
+        "starting_equity": 100.0,
+        "ending_equity": 21.508113986042513,
+        "n_trades": 6,
+        "n_wins": 0,
+        "n_losses": 6,
+        "total_pnl": -78.4918860139575,
+        "total_fees": 3.170545799728,
+        "total_funding": 7.689544174230002,
+        "max_drawdown_pct": 0.7849188601395748
+      },
+      {
+        "starting_equity": 1000.0,
+        "ending_equity": 189.45302760852903,
+        "n_trades": 6,
+        "n_wins": 0,
+        "n_losses": 6,
+        "total_pnl": -810.546972391471,
+        "total_fees": 32.542898480916,
+        "total_funding": 82.87778626656004,
+        "max_drawdown_pct": 0.810546972391471
+      }
+    ],
+    "news": [
+      {
+        "starting_equity": 10.0,
+        "ending_equity": 8.066147013305008,
+        "n_trades": 1,
+        "n_wins": 0,
+        "n_losses": 1,
+        "total_pnl": -1.9338529866949923,
+        "total_fees": 0.084512625995,
+        "total_funding": 0.0334418707,
+        "max_drawdown_pct": 0.19338529866949922
+      },
+      {
+        "starting_equity": 100.0,
+        "ending_equity": 61.397182582538946,
+        "n_trades": 2,
+        "n_wins": 0,
+        "n_losses": 2,
+        "total_pnl": -38.602817417461054,
+        "total_fees": 1.6994260616710002,
+        "total_funding": 0.52345851779,
+        "max_drawdown_pct": 0.38602817417461055
+      },
+      {
+        "starting_equity": 1000.0,
+        "ending_equity": 598.4927527855585,
+        "n_trades": 2,
+        "n_wins": 0,
+        "n_losses": 2,
+        "total_pnl": -401.50724721444146,
+        "total_fees": 17.669342342251,
+        "total_funding": 5.51827335419,
+        "max_drawdown_pct": 0.4015072472144415
+      }
+    ],
+    "random": [
+      {
+        "starting_equity": 10.0,
+        "ending_equity": 7.681518837394012,
+        "n_trades": 1,
+        "n_wins": 0,
+        "n_losses": 1,
+        "total_pnl": -2.318481162605987,
+        "total_fees": 0.08349038100600001,
+        "total_funding": 0.3377559936,
+        "max_drawdown_pct": 0.23184811626059876
+      },
+      {
+        "starting_equity": 100.0,
+        "ending_equity": 64.29357627444003,
+        "n_trades": 6,
+        "n_wins": 2,
+        "n_losses": 4,
+        "total_pnl": -35.706423725559965,
+        "total_fees": 4.400639379756473,
+        "total_funding": 7.524677764430001,
+        "max_drawdown_pct": 0.523486130573641
+      },
+      {
+        "starting_equity": 1000.0,
+        "ending_equity": 619.6533300456231,
+        "n_trades": 6,
+        "n_wins": 2,
+        "n_losses": 4,
+        "total_pnl": -380.3466699543769,
+        "total_fees": 44.924229344994046,
+        "total_funding": 77.56667045848998,
+        "max_drawdown_pct": 0.5489412105818392
+      }
+    ]
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": "2026-09-21 09:57:00+00:00",
+      "end": "2026-09-27 09:56:00+00:00"
+    },
+    {
+      "index": 1,
+      "start": "2026-09-27 09:57:00+00:00",
+      "end": "2026-10-03 09:56:00+00:00"
+    },
+    {
+      "index": 2,
+      "start": "2026-10-03 09:57:00+00:00",
+      "end": "2026-10-09 09:56:00+00:00"
+    },
+    {
+      "index": 3,
+      "start": "2026-10-09 09:57:00+00:00",
+      "end": "2026-10-15 09:56:00+00:00"
+    },
+    {
+      "index": 4,
+      "start": "2026-10-15 09:57:00+00:00",
+      "end": "2026-10-21 09:56:00+00:00"
+    }
+  ]
+}
